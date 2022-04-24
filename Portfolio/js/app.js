@@ -1,1 +1,1 @@
-/* Ready for some code to be added! what is goin ong*/
+/* Ready for some code to be added!*/
