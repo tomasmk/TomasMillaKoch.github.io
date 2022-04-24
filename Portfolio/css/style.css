@@ -3,7 +3,9 @@
 /* -------------------------------------------------------- */
 /* SHARED STYLES */
 
-html, body, #viewDiv {
+html,
+body,
+#viewDiv {
     padding: 0;
     height: 100%;
     width: 100%;
@@ -19,7 +21,8 @@ body {
     -o-background-size: cover;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
     margin-bottom: 3%;
     font-weight: bold;
@@ -38,9 +41,10 @@ h1, h2 {
 
 .text_link a {
     font-weight: bold;
-    color: #97CADB !important;
+    color: #ae330a !important;
     text-decoration: none;
 }
+
 .text_link a:hover {
     color: #001B48 !important;
 }
@@ -61,6 +65,7 @@ h1, h2 {
     color: #97CADB !important;
     border-radius: 10px;
 }
+
 .transparent_background h1 {
     color: #97CADB !important;
 }
@@ -70,21 +75,28 @@ h1, h2 {
 /* SPECIFIC COMPONENT STYLES */
 
 /* Navbar on all pages */
-.navbar, .dropdown-menu, .dropdown-item:hover, .dropdown-item:after {
+.navbar,
+.dropdown-menu,
+.dropdown-item:hover,
+.dropdown-item:after {
     background-color: black;
 }
-.navbar li, .navbar-toggler{
+
+.navbar li,
+.navbar-toggler {
     padding: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
 .navbar a {
     color: grey;
 }
+
 .navbar a:hover {
     color: #97CADB !important;
     font-weight: bold;
-    
+
 }
 
 /* Landing page Jumbotron (containing Our Mission) */
@@ -95,15 +107,19 @@ h1, h2 {
     padding: 5%;
     border-radius: 10px;
 }
+
 .jumbotron h1 {
     color: #97CADB;
 }
-.jumbotron .btn, .jumbotron .btn:after {
+
+.jumbotron .btn,
+.jumbotron .btn:after {
     background-color: #97CADB;
     color: #001B48;
     padding: 2%;
     border: 1px solid #001B48;
 }
+
 .jumbotron .btn:hover {
     background-color: #001B48;
     color: #97CADB;
@@ -115,6 +131,7 @@ h1, h2 {
     text-align: center;
     margin: 2%;
 }
+
 .child {
     display: inline-block;
     border-radius: 25px;
@@ -124,6 +141,7 @@ h1, h2 {
     padding: 3%;
     margin: 2%;
 }
+
 #demo_img {
     background: url('../img/map_app_demo.jpg') no-repeat center;
     background-size: contain;
@@ -138,9 +156,11 @@ h1, h2 {
     margin-right: 15%;
     padding: 5%;
 }
+
 .qr_code img {
     width: 25%;
 }
+
 #main_app .qr_code {
     color: #001B48;
 }
@@ -158,6 +178,7 @@ h1, h2 {
     margin-right: 10%;
     padding: 5%;
 }
+
 /* About Us section */
 #about_us {
     margin: 2%;
@@ -166,12 +187,15 @@ h1, h2 {
     padding-bottom: 3%;
     border-radius: 10px;
 }
+
 #about_us h1 {
     color: #97CADB;
 }
+
 #about_us h5 {
     font-weight: bold;
 }
+
 .about_us_card {
     margin: auto;
     border: none !important;
@@ -182,6 +206,7 @@ h1, h2 {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
+
 #prepare .child {
     margin: 1%;
     padding: 0;
@@ -201,6 +226,7 @@ h1, h2 {
     height: 0;
     max-width: 100%;
 }
+
 .embed-container iframe,
 .embed-container object,
 .embed-container iframe {
@@ -210,6 +236,7 @@ h1, h2 {
     width: 100%;
     height: 100%;
 }
+
 small {
     position: absolute;
     z-index: 40;
@@ -245,9 +272,11 @@ small {
         margin-top: 30%;
         margin-bottom: 10%;
     }
+
     .jumbotron p {
         font-size: 80%;
     }
+
     .jumbotron h1 {
         font-size: 200%;
     }
@@ -256,17 +285,21 @@ small {
     .parent {
         display: block;
     }
+
     #demo p {
         padding: 2%;
         font-size: 100%;
     }
+
     #demo h1 {
         padding: 2%;
         font-size: 120%;
     }
+
     #demo_img {
         display: none;
     }
+
     .container {
         margin-top: 35%;
     }
@@ -275,7 +308,9 @@ small {
     .about_us_card {
         width: 70%;
     }
-    .card-body p, .card-body h1 {
+
+    .card-body p,
+    .card-body h1 {
         font-size: 100%;
     }
 
@@ -288,6 +323,7 @@ small {
     .large_only {
         display: none;
     }
+
     .qr_code img {
         width: 40%;
     }
@@ -308,9 +344,11 @@ small {
         margin-top: 20%;
         margin-bottom: 20%;
     }
+
     .jumbotron p {
         font-size: 120%;
     }
+
     .jumbotron h1 {
         font-size: 250%;
     }
@@ -319,12 +357,15 @@ small {
     .parent {
         display: block;
     }
+
     #demo p {
         font-size: 95%;
     }
+
     #demo h1 {
         font-size: 120%;
     }
+
     #demo_img {
         height: 40vh;
         width: 60%;
@@ -339,9 +380,11 @@ small {
     #prepare .child_type_1 img {
         height: 250px;
     }
+
     #prepare .child_type_2 img {
         height: 300px;
     }
+
     #prepare .child {
         width: 80%;
     }
@@ -366,7 +409,7 @@ small {
         font-size: 120%;
     }
 
-    
+
 
 }
 
@@ -379,9 +422,11 @@ small {
         margin-top: 15%;
         margin-bottom: 15%;
     }
+
     .jumbotron p {
         font-size: 110%;
     }
+
     .jumbotron h1 {
         font-size: 250%;
     }
@@ -391,12 +436,15 @@ small {
         height: 80%;
         width: 45%;
     }
+
     #demo p {
         font-size: 95%;
     }
+
     #demo h1 {
         font-size: 120%;
     }
+
     #demo_img {
         height: 60vh;
     }
@@ -410,12 +458,15 @@ small {
     #prepare .child_type_1 img {
         height: 250px;
     }
+
     #prepare .child_type_2 img {
         height: 300px;
     }
+
     #prepare .child_type_1 {
         width: 45%;
     }
+
     #prepare .child_type_2 {
         width: 80%
     }
@@ -443,6 +494,7 @@ small {
     .jumbotron p {
         font-size: 120%;
     }
+
     .jumbotron h1 {
         font-size: 250%;
     }
@@ -451,9 +503,11 @@ small {
     #demo p {
         font-size: 120%;
     }
+
     #demo h1 {
         font-size: 150%;
     }
+
     #demo_img {
         height: 80vh;
     }
@@ -467,9 +521,11 @@ small {
     #prepare .child_type_1 img {
         height: 250px;
     }
+
     #prepare .child_type_2 img {
         height: 250px;
     }
+
     #prepare .child {
         width: 30%;
     }
@@ -480,4 +536,3 @@ small {
     }
 
 }
-    
