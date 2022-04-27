@@ -189,7 +189,7 @@ img {
 
 #M_img {
     background: url('../img/McGill.png') no-repeat center;
-    background-size: cover;
+    background-size: contain;
 }
 
 #C_img {
