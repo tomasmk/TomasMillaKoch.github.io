@@ -13,8 +13,32 @@ body,
     font-family: 'Quicksand', sans-serif !important;
 }
 
-body {
+body.home {
     background: url("../img/crater.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+body.RS {
+    background: url("../img/two.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+body.GIS {
+    background: url("../img/three.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+body.Res {
+    background: url("../img/four.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -26,6 +50,18 @@ h2 {
     text-align: center;
     margin-bottom: 3%;
     font-weight: bold;
+    color: #615D4C;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 100px;
+    color: #615D4C;
+}
+
+a {
     color: #615D4C;
 }
 
@@ -68,6 +104,10 @@ h2 {
 
 .transparent_background h1 {
     color: #A1A18A !important;
+}
+
+img {
+    background-size: contain;
 }
 
 
@@ -143,8 +183,19 @@ h2 {
 }
 
 #demo_img {
-    background: url('../img/map_app_demo.jpg') no-repeat center;
+    background: url('../img/Tomas.jpg') no-repeat center;
     background-size: contain;
+}
+
+#M_img {
+    background: url('../img/McGill.png') no-repeat center;
+    background-size: cover;
+}
+
+#C_img {
+    background: url('../img/COGS_LOGO.png') no-repeat center;
+    background-size: contain;
+
 }
 
 /* QR Code Section (on index.html and app.html) */
