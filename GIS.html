@@ -6,7 +6,7 @@
 
   <meta charset="utf-8">
 
-  <title>FloodRouteFinder App</title>
+  <title>Tomas Milla-Koch Portfolio</title>
   <meta name="description" content="ECCE App Challenge 2022 - The Underscores">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,7 +27,7 @@
 </head>
 
 
-<body>
+<body class="GIS">
 
   <!-- Fixed-top Navigation Bar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -50,11 +50,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="index.html#demo">Demo</a>
+            <a class="nav-link" href="GIS.html">GIS</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="index.html#about_us">About Us</a>
+            <a class="nav-link" href="Res.html">Research</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -63,31 +63,26 @@
               Quick Links
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="danger.html">Dangers</a></li>
-              <li><a class="dropdown-item" href="risk.html">High Risk Areas</a></li>
-              <li><a class="dropdown-item" href="live.html">Check for Flood Warnings</a></li>
-              <li><a class="dropdown-item" href="prepare.html">How to Prepare</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/tomas-milla-koch-49a0251b5/"
+                  target="_blank">LinkedIn
+                  Profile</a></li>
+              <li><a class="dropdown-item" href="https://github.com/tomasmk" target="_blank">Github</a></li>
             </ul>
           </li>
         </ul>
 
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html#contact">Send us a comment!</a>
-          </li>
-        </ul>
       </div>
     </div>
-
   </nav>
 
   <!-- Main app -->
   <div class="container" id="main_app">
     <div class="card-body p-5 transparent_background">
-      <h1>Remote Sensing</h1>
+      <h1>Geographical Information Systems (GIS)</h1>
       <br>
-      <p style="text-align: center;">
-        Here, I showcase some of my favourite work within the discipline of Remote Sensing.
+      <p>
+        Throughout my academic endeavors, I have been working on visualizing and geoprocessing data all using GIS
+        technologies. The following work is some of my favourite works within the field of GIS.
       </p>
     </div>
   </div>
@@ -95,10 +90,13 @@
   <!-- Main app -->
   <div class="container" id="main_app">
     <div class="card-body p-5 transparent_background">
-      <h1>Principal Component Analysis</h1>
+      <h1>Esri App Challenge 2022 Web Application</h1>
       <br>
-      <p style="text-align: center;">
-        Here, I showcase some of my favourite work within the discipline of Remote Sensing.
+      <p>
+        In February of 2022, I participated in the Esri Canada App Challenge where in a team of three, we created a web
+        application entirely using Esri technologies. The final web application that I created was a disaster floor
+        route finder
+        for the city of Toronto, On, Canada.
       </p>
       <br>
       <div class="embed-container"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
@@ -108,26 +106,24 @@
     </div>
   </div>
 
-  <!--Storymap -->
-  <div class="container" id="storymap">
+  <!-- Main app -->
+  <div class="container" id="main_app">
     <div class="card-body p-5 transparent_background">
-      <h1>Interested in How We Made Our App? Check Out Our technical Summary Below!</h1>
+      <h1>Live Flood Web Map</h1>
       <br>
       <p>
-        All of our geoprocessing was performed in ArcGIS Pro using ModelBuilder. Check out our Story Map outlining our
-        model building process.
+        The following web map is a live flooding map throughout Canada along with historical precipitation deviations
+        from normal (this data is updated every few months). The data collected was entirely from REST APIs.
       </p>
       <br>
-      <div class="embed-container"><iframe
-          src="https://ecce-appchallenge.canadacentral.cloudapp.azure.com/portal/apps/storymaps/stories/8ef7e50047904f00bd4ce9951cc946df"></iframe>
+      <div>
+        <div id="viewDiv" style="height: 700px"></div>
       </div>
-      <br>
-      <br>
     </div>
   </div>
 
   <div id="footer">
-    <p>ECCE App Challenge 2022</p>
+    <p>Contact: tomasmillakoch97@gmail.com - 514.415.8059</p>
   </div>
 
 
